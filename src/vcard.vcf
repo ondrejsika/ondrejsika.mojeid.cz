@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+ADR;CHARSET=utf-8;TYPE=HOME:;;Kurta Konrada 6;Praha;;18000;Česká republika
+EMAIL;CHARSET=utf-8;TYPE=NEXT:ondrej@ondrejsika.com
+FN;CHARSET=utf-8:Ondrej Sika
+N;CHARSET=utf-8:Sika;Ondrej;;;
+TEL;TYPE=WORK:+420.773452376
+URL;CHARSET=utf-8;TYPE=PERSONAL:https://ondrejsika.com
+URL;CHARSET=utf-8;TYPE=OFFICE:https://ondrej-sika.com
+URL;CHARSET=utf-8;TYPE=FACEBOOK:https://facebook.com/sikaondrej
+URL;CHARSET=utf-8;TYPE=LINKEDIN:https://www.linkedin.com/in/ondrejsika/
+URL;CHARSET=utf-8;TYPE=INSTAGRAM:https://www.instagram.com/ondrejsika/
+URL;CHARSET=utf-8;TYPE=FLICKR:https://www.flickr.com/photos/ondrejsika/
+END:VCARD

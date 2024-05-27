@@ -1,0 +1,516 @@
+/*
+    Public profile
+*/
+
+/* commons */
+
+body {
+    color: #333;
+}
+
+html,
+body#personal_page {
+    height: 100%;
+    margin: 0;
+}
+
+/***************** OTHERS **********************/
+h1.name span.age {
+    display: block;
+    color: #666;
+    font-weight: normal;
+    white-space: nowrap;
+    font-size: 0.6em;
+}
+
+a {
+    color: #333;
+}
+
+span.validated {
+    color: green;
+    font-size: 0.8em;
+}
+
+img.in-text {
+    height: 22px;
+    width: 22px;
+    margin-right: 0.1em;
+    position: relative;
+    top: 5px;
+}
+
+.profile_bgimage {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/***************** LIST **********************/
+.content_list {
+    margin: 0;
+    padding-left: 0;
+    display: table;
+}
+
+.content_list li {
+    display: table-row;
+    line-height: 30px;
+}
+
+.content_list li span {
+    display: table-cell;
+}
+
+.content_list li span.list_label img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    height: 95px;
+}
+
+#footer a img {
+    margin-top: 40px;
+    width: 120px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #f2f2f2;
+    margin: 20px 0;
+}
+
+hr.bio {
+    margin: 20px 0 0;
+}
+
+.cleaner {
+    clear: both;
+}
+
+.star {
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #b8b8b8;
+}
+
+/***************** TITLES **********************/
+#primary-title {
+    display: inline-block;
+}
+
+#primary-title h1 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#secondary-title {
+    padding: 5px 0 21px;
+    text-align: right;
+    float: right;
+}
+
+/***************** ROWS **********************/
+#qr_code_row,
+#social_sites_row,
+#personal_info_row,
+#data_row {
+    clear: both;
+    padding: 0 35px;
+}
+
+#header_row {
+    clear: both;
+    padding: 20px 35px 0;
+    border-radius: 10px 10px 0 0;
+    font-size: 21px;
+    background-color: #fafafa;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+#personal_info_row .note {
+    line-height: 20px;
+}
+
+section#data_row {
+    margin-top: 20px;
+}
+
+/***************** SOCIAL SITES **********************/
+.social-network-icons {
+    max-width: 21.3em;
+    padding-top: 16px;
+}
+
+.social-network-icons a {
+    overflow: hidden;
+    text-decoration: none;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    background-repeat: no-repeat;
+    background-size: 35px 70px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+.social-network-icons a.facebook {
+    background-image: url("/static/mojeid/img/social_network/facebook.f3f1a49e4aa1.svg");
+}
+
+.social-network-icons a.twitter {
+    background-image: url("/static/mojeid/img/social_network/twitter.63de96b641a1.svg");
+}
+
+.social-network-icons a.linkedin {
+    background-image: url("/static/mojeid/img/social_network/linkedin.060ea25f42a1.svg");
+}
+
+.social-network-icons a.instagram {
+    background-image: url("/static/mojeid/img/social_network/instagram.153eca64afd9.svg");
+}
+
+.social-network-icons a.pinterest {
+    background-image: url("/static/mojeid/img/social_network/pinterest.bdaa76c0d392.svg");
+}
+
+.social-network-icons a.tumblr {
+    background-image: url("/static/mojeid/img/social_network/tumblr.72df33cde75d.svg");
+}
+
+.social-network-icons a.wordpress {
+    background-image: url("/static/mojeid/img/social_network/wordpress.1ce9a2276c0a.svg");
+}
+
+.social-network-icons a.foursquare {
+    background-image: url("/static/mojeid/img/social_network/foursquare.d6305ae1fc4d.svg");
+}
+
+.social-network-icons a.youtube {
+    background-image: url("/static/mojeid/img/social_network/youtube.4ba1625afeaa.svg");
+}
+
+.social-network-icons a.blogger {
+    background-image: url("/static/mojeid/img/social_network/blogger.cc7e43ca6925.svg");
+}
+
+.social-network-icons a.gravatar {
+    background-image: url("/static/mojeid/img/social_network/gravatar.83ae3244b3c4.svg");
+}
+
+.social-network-icons a.about_me {
+    background-image: url("/static/mojeid/img/social_network/about_me.8fef3e933dc2.svg");
+}
+
+.social-network-icons a.vimeo {
+    background-image: url("/static/mojeid/img/social_network/vimeo.071368eb017c.svg");
+}
+
+.social-network-icons a.flickr {
+    background-image: url("/static/mojeid/img/social_network/flickr.e5f572c103e9.svg");
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.social-network-icons span {
+    top: -50px;
+    position: relative;
+}
+
+.social-network-icons a:hover {
+    background-position: 0 -35px;
+}
+
+/***************** COLUMNS **********************/
+#left-column,
+#business_card #social-sites-column {
+    display: inline-block;
+    float: left;
+    margin-left: 12px;
+}
+
+#center-column {
+    display: inline-block;
+    float: none;
+    position: relative;
+}
+
+#right-column {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+#right-column > span.qrcode img {
+    width: 120px;
+}
+
+#right-column > div.vcard {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    font-size: 0.62em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6px 0;
+    width: 106px;
+}
+
+#right-column > div.vcard > a {
+    padding: 8px 4px;
+    text-decoration: inherit;
+}
+
+/* specific */
+
+#business_card .profile_bgimage {
+    background-position: center;
+}
+
+#personal_page .profile_bgimage {
+    background-position: left;
+}
+
+#personal_page #container {
+    min-height: 100%;
+    background-color: white;
+    margin-bottom: -95px;
+    margin-left: calc(100% - 600px);
+}
+
+#business_card #content {
+    background-color: #fff;
+    border-color: #808080;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    border-radius: 10px 10px 0 0;
+    margin: 2em auto 0;
+    max-width: 770px;
+    min-height: 450px;
+    padding: 0;
+}
+
+#personal_page #content {
+    background-color: white;
+    border: 0;
+    max-width: 600px;
+    margin-bottom: -95px;
+    padding: 0 0 95px;
+}
+
+#business_card .list_label,
+#personal_page .list_label {
+    text-align: right;
+    width: 142px;
+    white-space: nowrap;
+    min-width: 142px;
+}
+
+#business_card .list_data {
+    text-align: left;
+    vertical-align: bottom;
+    padding-left: 30px;
+    width: 540px;
+}
+
+#personal_page .list_data {
+    text-align: left;
+    vertical-align: bottom;
+    padding-left: 25px;
+    width: 390px;
+}
+
+#business_card #footer {
+    border-color: #808080;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    border-radius: 0 0 10px 10px;
+    max-width: 700px;
+    margin: -1px auto 2em;
+    padding: 0 35px;
+}
+
+#personal_page #footer {
+    width: 600px;
+    margin-left: calc(100% - 600px);
+}
+
+/***************** SOCIAL SITES **********************/
+
+#business_card #social_sites_row span.user_image img {
+    border-radius: 4px;
+    margin: 0 30px 20px 0;
+}
+
+#business_card .social-network-icons {
+    margin-bottom: 20px;
+}
+
+#personal_page .social-network-icons {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#personal_page section#qr_code_row span.user_image img {
+    border-radius: 4px;
+}
+
+/***************** RESPONSIVE DESIGN **********************/
+
+/* ### Personal Page only ### */
+@media (max-width: 620px) {
+    #personal_page #container {
+        margin-left: 0;
+    }
+
+    #personal_page #footer {
+        width: auto;
+        margin-left: 0;
+    }
+
+    #personal_page #social_sites_row span.user_image img {
+        margin-right: 5px;
+    }
+
+    #personal_page #secondary-title {
+        max-width: 50%;
+    }
+}
+
+/* ### Business Card only ### */
+@media (max-width: 800px) {
+    #business_card #social_sites_row span.user_image img {
+        margin-right: 5px;
+    }
+
+    #business_card #right-column {
+        padding: 20px 5px;
+    }
+
+    #business_card #secondary-title {
+        max-width: 60%;
+    }
+
+    #business_card #left-column,
+    #business_card #social-sites-column {
+        margin-left: 0;
+    }
+}
+
+/* ### For both templates ### */
+@media (max-width: 570px) {
+    hr {
+        margin: 1em 0;
+    }
+
+    .social-network-icons {
+        max-width: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .social-network-icons a {
+        background-size: 40px 80px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-network-icons a:hover {
+        background-position: 0 -40px;
+    }
+
+    #secondary-title {
+        padding: 0 0 5px;
+    }
+
+    #right-column > div.vcard {
+        padding: 8px;
+        width: auto;
+    }
+
+    #right-column > div.vcard > a {
+        padding: 8px 8em;
+    }
+
+    .content_list {
+        margin: 0;
+        padding-left: 0;
+    }
+
+    #business_card .list_label,
+    #personal_page .list_label {
+        width: auto;
+        max-width: 60px;
+        min-width: auto;
+        white-space: normal;
+    }
+
+    .list_data {
+        width: auto;
+        max-width: 400px;
+    }
+
+    #right-column {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #right-column > span.qrcode img {
+        width: 70%;
+    }
+
+    #left-column > p {
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    #left-column > p.qrcode {
+        display: none;
+    }
+
+    ul.contacts li span {
+        font-weight: bold;
+        width: 100%;
+        margin: 1em 0 0 -2em;
+    }
+
+    ul.contacts li {
+        margin-left: 2em;
+    }
+
+    #business_card #social_sites_row div#left-column,
+    #business_card #social_sites_row div#social-sites-column,
+    #business_card #social_sites_row span.user_image img,
+    #personal_page #qr_code_row div#left-column,
+    #personal_page #qr_code_row span.user_image img {
+        width: 100%;
+    }
+
+    #left-column,
+    #business_card #social-sites-column {
+        margin-left: 1px;
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        font-size: 80%;
+    }
+
+    #content {
+        padding: 21px 10px 0;
+    }
+
+    #right-column > div.vcard > a {
+        padding: 8px 2em;
+    }
+}
