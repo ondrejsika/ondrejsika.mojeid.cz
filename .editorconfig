@@ -9,3 +9,11 @@ end_of_line = lf
 max_line_length = off
 [Makefile]
 indent_style = tab
+[src/*]
+indent_style = unset
+indent_size = unset
+charset = unset
+trim_trailing_whitespace = unset
+insert_final_newline = unset
+end_of_line = unset
+max_line_length = unset
